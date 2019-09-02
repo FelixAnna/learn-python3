@@ -21,6 +21,9 @@ def partition(data, low, high):
     if low>=high:
         return low
     
+    index=random.randrange(low, high);
+    swap(data, low, index)
+
     middle=low
     for i in range(low, high+1):
         if data[low]>data[i]:
@@ -43,9 +46,6 @@ sample=random.sample(range(100),20)
 print("before sort:", repr(sample))
 quicksort(sample, 0, len(sample)-1)
 print("after sort:",repr(sample))
-
-
-
 
 
 

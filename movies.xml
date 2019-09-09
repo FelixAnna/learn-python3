@@ -1,0 +1,17 @@
+<collection no="one">
+	<movie title="seti">
+		<size>120M</size>
+		<date>2018-01-21</date>
+		<rating>9.0</rating>
+	</movie>
+	<movie title="mati">
+		<size>1024M</size>
+		<date>2019-01-21</date>
+		<rating>9.2</rating>
+	</movie>
+	<movie title="ice">
+		<size>985M</size>
+		<date>2017-10-09</date>
+		<rating>8.7</rating>
+	</movie>
+</collection>
